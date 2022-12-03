@@ -144,4 +144,8 @@ p {
   .hero {
     padding: 160px 20px;
   }
+
+  .project-block {
+    margin-top: 10px !important;
+  }
 }
