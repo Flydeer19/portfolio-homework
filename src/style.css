@@ -120,10 +120,8 @@ p {
 
 .inquiry-button-parent {
   text-align: center;
-}
-
-.work-inquiry-button {
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 .email-parent {
