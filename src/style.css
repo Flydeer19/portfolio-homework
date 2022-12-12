@@ -207,6 +207,36 @@ p {
   margin-right: 30px;
 }
 
+nav {
+  padding: 20px 50px 20px 30px;
+  background-color: white;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 45px;
+  margin-left: 30px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav li a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
+nav .logo {
+  max-height: 50px;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 48px;
@@ -305,5 +335,10 @@ p {
     color: black;
     font-size: 18px;
     line-height: 36px;
+  }
+
+  nav li {
+    line-height: 45px;
+    margin-left: 10px;
   }
 }
