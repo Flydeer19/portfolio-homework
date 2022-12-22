@@ -12,42 +12,42 @@ body {
 h1 {
   font-family: var(--heading-font);
   font-weight: bold;
-  font-size: 96px;
+  font-size: 6rem;
 }
 
 h2 {
   font-family: var(--heading-font);
   font-weight: 700;
-  font-size: 64px;
-  margin-bottom: 40px;
+  font-size: 3.25rem;
+  margin-bottom: 2.5rem;
 }
 
 h3 {
   font-family: var(--paragraph-font);
   font-weight: bold;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #272142;
 }
 
 h4 {
   font-family: var(--heading-font);
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.875rem;
   font-weight: 400;
   color: #272142;
   opacity: 0.7;
 }
 
 .sum-paragraph {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
   text-align: center;
-  margin: 50px 0;
+  margin: 3.125rem 0;
   color: #272142;
   opacity: 1;
 }
@@ -55,42 +55,42 @@ p {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 140px 20px;
+  padding: 8.75rem 1.25rem;
 }
 
 .hero p {
   font-family: var(--paragraph-font);
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #272142;
-  margin-top: 25px;
+  margin-top: 1.563rem;
 }
 
 .content-container {
-  margin: 100px 10px;
+  margin: 6.25rem 0.625rem;
 }
 
 .content {
-  padding: 50px 0 40px 0px;
+  padding: 3.125rem 0 2.5rem;
 }
 
 .content h1 {
-  font-size: 64px;
+  font-size: 4rem;
 }
 
 .content h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: var(--paragraph-font);
 }
 
 .content h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .about-page-img img {
   max-width: 74%;
   display: block;
-  margin: 10px auto;
+  margin: 0.625rem auto;
 }
 
 .img-author-link {
@@ -98,7 +98,7 @@ p {
   text-align: center;
   text-decoration: none;
   color: #a8a4f9;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .img-author-link:hover {
@@ -108,55 +108,55 @@ p {
 
 .btn-branding {
   background: var(--primary-color);
-  border-radius: 4px;
+  border-radius: 0.25rem;
   color: white;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 18px 46px;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  padding: 1.125rem 2.875rem;
   transition: all 200ms ease-in-out;
 }
 
 .btn-branding:hover {
   background: var(--primary-color);
-  border-radius: 4px;
+  border-radius: 0.25rem;
   color: black;
 }
 
 .project-description {
-  margin-top: 30px;
-  margin-left: 50px;
+  margin-top: 1.875rem;
+  margin-left: 3.125rem;
 }
 
 .project-button {
   color: var(--primary-color);
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
-  border: 1px solid var(--primary-color);
-  padding: 18px 30px;
+  border: 0.063rem solid var(--primary-color);
+  padding: 1.063rem 1.875rem;
   transition: all 200ms ease-in-out;
-  margin-top: 7px;
+  margin-top: 0.438rem;
 }
 
 .project-button:hover {
-  border: 1px solid var(--primary-color);
+  border: 0.063rem solid var(--primary-color);
   color: black;
 }
 
 footer .work-inquiry {
   background: var(--secondary-color);
   max-width: 85%;
-  margin: 70px auto;
-  border-radius: 20px;
-  padding: 50px 80px 35px;
+  margin: 4.375rem auto;
+  border-radius: 1.25rem;
+  padding: 3.125rem 5rem 2.188rem;
   vertical-align: middle;
 }
 
 .bottom-paragraph p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .inquiry-button-parent {
@@ -167,14 +167,14 @@ footer .work-inquiry {
 
 .email-parent {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .email {
   text-decoration: none;
   color: black;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }
 
 .email:hover {
@@ -183,7 +183,7 @@ footer .work-inquiry {
 }
 
 .social-media-icons {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   display: flex;
   justify-content: center;
 }
@@ -191,10 +191,10 @@ footer .work-inquiry {
 .facebook-icon,
 .github-icon {
   background-color: var(--secondary-color);
-  padding: 15px;
+  padding: 0.938rem;
   border-radius: 50%;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: all 200ms ease-in-out;
 }
 
@@ -205,12 +205,12 @@ footer .work-inquiry {
 }
 
 .facebook-icon {
-  padding: 15px 19px;
-  margin-right: 30px;
+  padding: 0.938rem 1.188rem;
+  margin-right: 1.875rem;
 }
 
 .twitter-icon {
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 
 footer .author {
@@ -218,7 +218,7 @@ footer .author {
 }
 
 footer .author p {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 footer .author a {
@@ -226,7 +226,7 @@ footer .author a {
   text-decoration: none;
 }
 nav {
-  padding: 20px 50px 20px 30px;
+  padding: 1.25rem 3.125rem 1.25rem 1.875rem;
   background-color: white;
 }
 
@@ -237,8 +237,8 @@ nav ul {
 
 nav li {
   display: inline;
-  line-height: 45px;
-  margin-left: 30px;
+  line-height: 2.813rem;
+  margin-left: 1.875rem;
 }
 
 nav li a {
@@ -253,20 +253,29 @@ nav li.active a {
 
 nav .logo {
   position: absolute;
-  top: 10px;
+  top: 0.625rem;
   left: 0;
-  max-width: 150px;
+  max-width: 9.375rem;
 }
 
 nav .small-logo {
   position: absolute;
-  top: 5px;
-  left: -50px;
-  max-width: 100px;
+  top: 0.313rem;
+  left: -3.125rem;
+  max-width: 6.25rem;
 }
 
 @media (max-width: 992px) {
-  h1 {
+  html {
+    font-size: 14px;
+  }
+
+  @media (max-width: 575px) {
+    html {
+      font-size: 10px;
+    }
+  }
+  /* h1 {
     font-size: 48px;
   }
 
@@ -383,5 +392,5 @@ nav .small-logo {
 
   footer .author p {
     font-size: 10px;
-  }
+  } */
 }
