@@ -3,10 +3,53 @@
   --paragraph-font: "Poppins", sans-serif;
   --primary-color: #6c63ff;
   --secondary-color: #f9f7fe;
+  --main-shadow: rgba(50, 50, 93, 0.25) 0rem 3.125rem 6.25rem -1.25rem,
+    rgba(0, 0, 0, 0.3) 0rem 1.875rem 3.75rem -1.875rem,
+    rgba(10, 37, 64, 0.35) 0rem -0.125rem 0.375rem 0rem inset;
 }
 
 body {
   font-family: var(--paragraph-font);
+}
+
+nav {
+  padding: 1.25rem 3.125rem 1.25rem 1.875rem;
+  background-color: white;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 2.813rem;
+  margin-left: 1.875rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav li a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
+nav .logo {
+  position: absolute;
+  top: 0.625rem;
+  left: 0;
+  max-width: 9.375rem;
+}
+
+nav .small-logo {
+  position: absolute;
+  top: 0.313rem;
+  left: -3.125rem;
+  max-width: 6.25rem;
 }
 
 h1 {
@@ -87,6 +130,15 @@ p {
   font-size: 1.5rem;
 }
 
+.project-block {
+  transition: all 50ms ease-in-out;
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+}
+.project-block:hover {
+  box-shadow: var(--main-shadow);
+}
+
 .about-page-img img {
   max-width: 74%;
   display: block;
@@ -120,7 +172,10 @@ p {
 .btn-branding:hover {
   background: var(--primary-color);
   border-radius: 0.25rem;
-  color: black;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  background: white;
+  border: 0.125rem solid var(--primary-color);
 }
 
 .project-description {
@@ -141,7 +196,37 @@ p {
 
 .project-button:hover {
   border: 0.063rem solid var(--primary-color);
-  color: black;
+  color: rgba(108, 99, 255, 0.7);
+  background-color: rgba(108, 99, 255, 0.2);
+  font-weight: 700;
+}
+
+.img-section {
+  padding: 1.25rem 2.5rem;
+  border-radius: 0.625rem;
+}
+
+.img-section:hover {
+  box-shadow: var(--main-shadow);
+}
+
+.img-section a {
+  text-decoration: none;
+}
+
+.contact-image {
+  max-width: 30%;
+}
+
+.skills {
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0.8;
+  padding-bottom: 0.8rem;
+}
+
+li {
+  opacity: 0.8;
 }
 
 footer .work-inquiry {
@@ -225,172 +310,15 @@ footer .author a {
   color: var(--primary-color);
   text-decoration: none;
 }
-nav {
-  padding: 1.25rem 3.125rem 1.25rem 1.875rem;
-  background-color: white;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  line-height: 2.813rem;
-  margin-left: 1.875rem;
-}
-
-nav li a {
-  text-decoration: none;
-  color: #272142;
-}
-
-nav li a:hover,
-nav li.active a {
-  color: var(--primary-color);
-}
-
-nav .logo {
-  position: absolute;
-  top: 0.625rem;
-  left: 0;
-  max-width: 9.375rem;
-}
-
-nav .small-logo {
-  position: absolute;
-  top: 0.313rem;
-  left: -3.125rem;
-  max-width: 6.25rem;
-}
 
 @media (max-width: 992px) {
   html {
     font-size: 14px;
   }
+}
 
-  @media (max-width: 575px) {
-    html {
-      font-size: 10px;
-    }
-  }
-  /* h1 {
-    font-size: 48px;
-  }
-
-  h2 {
-    font-size: 38px;
-    margin-bottom: 5px;
-  }
-
-  h3 {
-    font-size: 28px;
-  }
-
-  .hero p {
-    font-size: 18px;
-    margin-top: 10px;
-  }
-
-  .content-container {
-    margin-top: 60px 0 0 0;
-  }
-
-  .content {
-    text-align: center;
-    padding: 0 0 30px 0;
-  }
-
-  .content h1 {
-    font-size: 42px;
-  }
-
-  .about-page-img img {
-    max-width: 85%;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .btn-branding {
-    font-size: 15px;
-    line-height: 20px;
-    padding: 20px 35px;
-    margin-top: 15px !important;
-  }
-
-  p {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .sum-paragraph {
-    font-size: 13px;
-    margin: 20px 0;
-  }
-
-  .project-description {
-    margin-top: 20px;
-    margin-left: 10px;
-    text-align: center;
-  }
-
-  .project-button {
-    margin-top: 12px;
-  }
-
-  .hero {
-    padding: 160px 20px;
-  }
-
-  .project-block {
-    margin-top: 10px !important;
-  }
-
-  h4 {
-    font-size: 24px;
-  }
-
-  .work-inquiry {
-    margin: 30px auto;
-    border-radius: 10px;
-    padding: 30px 40px 10px;
-  }
-
-  .bottom-paragraph p {
-    font-size: 14px;
-    margin-top: 10px;
-    text-align: left;
-  }
-
-  .work-inquiry-button {
-    margin-top: 0 !important;
-  }
-
-  .email {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    line-height: 36px;
-  }
-
-  nav {
-    padding: 5px 50px 5px 30px;
-  }
-
-  nav li {
-    margin-left: 10px;
-  }
-
-  footer .email-parent {
-    margin-top: 30px;
-  }
-
-  footer .social-media-icons {
-    margin-bottom: 40px;
-  }
-
-  footer .author p {
+@media (max-width: 575px) {
+  html {
     font-size: 10px;
-  } */
+  }
 }
