@@ -124,7 +124,7 @@ p {
 }
 
 .project-description {
-  margin-top: 100px;
+  margin-top: 30px;
   margin-left: 50px;
 }
 
@@ -136,7 +136,7 @@ p {
   border: 1px solid var(--primary-color);
   padding: 18px 30px;
   transition: all 200ms ease-in-out;
-  margin-top: 50px;
+  margin-top: 7px;
 }
 
 .project-button:hover {
@@ -252,7 +252,17 @@ nav li.active a {
 }
 
 nav .logo {
-  max-height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  max-width: 150px;
+}
+
+nav .small-logo {
+  position: absolute;
+  top: 5px;
+  left: -50px;
+  max-width: 100px;
 }
 
 @media (max-width: 992px) {
@@ -262,7 +272,7 @@ nav .logo {
 
   h2 {
     font-size: 38px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   h3 {
